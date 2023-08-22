@@ -1,0 +1,20 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.configPath": ".prettierrc",
+  "prettier.requireConfig": true,
+  "javascript.validate.enable": false
+  // "typescript.tsdk": "node_modules/typescript/lib",
+  // "javascript.preferences.importModuleSpecifierEnding": "js",
+  // "typescript.preferences.importModuleSpecifierEnding": "js",
+}
